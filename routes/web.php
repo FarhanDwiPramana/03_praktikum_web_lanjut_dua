@@ -22,4 +22,4 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [HomeController::class, 'index'])->name('home');
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-Route::get('/pengalaman', [PengalamanController::class, 'index'])->name('pengalaman'); 
+Route::get('/pengalaman', [PengalamanController::class, 'index'])->name('pengalaman');
